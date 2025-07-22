@@ -56,4 +56,4 @@ Reload your shell
 ``` bash
 source ~/.bash_profile
 ```
-4. **🎉 The setup is compelete**
+4. **🎉 The setup is complete**
