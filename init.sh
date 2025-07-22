@@ -24,7 +24,7 @@ do
     tmux new-session -d -s $ses_name
     
     win_count=$(yq ".sessions.[$i].windows | length" $config_file)
-    for ((y = 0; y < ses_count; y++));
+    for ((y = 0; y < win_count; y++));
     do
         win_name=$(yq ".sessions.[$i].windows.[$y].name" $config_file)
         win_command=$(yq ".sessions.[$i].windows.[$y].command" $config_file)
