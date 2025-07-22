@@ -1,0 +1,5 @@
+sessions:
+  - name: main
+    windows:
+      - name: bash
+        command: bash
